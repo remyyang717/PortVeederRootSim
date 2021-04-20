@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortVeederRootGaugeSimulatorTest", "SimulatorTest\PortVeederRootGaugeSimulatorTest.csproj", "{94C588C2-B525-4375-B57F-F39EA5EBB36D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1320F09-DB01-480E-85C4-B818D6D420A3}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		build.ps1 = build.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortVeederRootGaugeSim", "PortVeederRootGaugeSim\PortVeederRootGaugeSim.csproj", "{AB06B899-D89D-4E37-8B89-A429E74C9DA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortVeederRootGaugeSimulatorBlackTesting", "PortVeederRootGaugeSimulatorBlackTesting\PortVeederRootGaugeSimulatorBlackTesting.csproj", "{E5A89E2D-DFA6-424A-864E-76881E4C8851}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ITLDEBUG|Any CPU = ITLDEBUG|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94C588C2-B525-4375-B57F-F39EA5EBB36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C588C2-B525-4375-B57F-F39EA5EBB36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C588C2-B525-4375-B57F-F39EA5EBB36D}.ITLDEBUG|Any CPU.ActiveCfg = ITLDEBUG|Any CPU
+		{94C588C2-B525-4375-B57F-F39EA5EBB36D}.ITLDEBUG|Any CPU.Build.0 = ITLDEBUG|Any CPU
+		{94C588C2-B525-4375-B57F-F39EA5EBB36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C588C2-B525-4375-B57F-F39EA5EBB36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB06B899-D89D-4E37-8B89-A429E74C9DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB06B899-D89D-4E37-8B89-A429E74C9DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB06B899-D89D-4E37-8B89-A429E74C9DA2}.ITLDEBUG|Any CPU.ActiveCfg = ITLDEBUG|Any CPU
+		{AB06B899-D89D-4E37-8B89-A429E74C9DA2}.ITLDEBUG|Any CPU.Build.0 = ITLDEBUG|Any CPU
+		{AB06B899-D89D-4E37-8B89-A429E74C9DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB06B899-D89D-4E37-8B89-A429E74C9DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A89E2D-DFA6-424A-864E-76881E4C8851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A89E2D-DFA6-424A-864E-76881E4C8851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A89E2D-DFA6-424A-864E-76881E4C8851}.ITLDEBUG|Any CPU.ActiveCfg = ITLDEBUG|Any CPU
+		{E5A89E2D-DFA6-424A-864E-76881E4C8851}.ITLDEBUG|Any CPU.Build.0 = ITLDEBUG|Any CPU
+		{E5A89E2D-DFA6-424A-864E-76881E4C8851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A89E2D-DFA6-424A-864E-76881E4C8851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DAF9BB4-3659-4F16-BEFF-8C93679ECCC4}
+	EndGlobalSection
+EndGlobal
